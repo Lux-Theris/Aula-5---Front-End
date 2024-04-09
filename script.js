@@ -4,6 +4,8 @@ const peso = document.querySelector('#peso');
 
 // eslint-disable-next-line no-unused-vars
 const CalcIMC = () => {
+  // eslint-disable-next-line no-console
+  console.log('Testando uma branch 123');
   if (altura.value !== '' && peso.value !== '') {
     const imc = (peso.value / (altura.value * altura.value)).toFixed(2);
     let classification = '';
